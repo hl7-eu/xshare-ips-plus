@@ -1,0 +1,48 @@
+<div xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" lang="en">
+
+  <blockquote class="dragon">
+    <p>The specification herewith documented is a working specification. 
+    No liability can be inferred from the use or misuse of this specification, or its consequences.</p>
+    <p>
+  Please refer to the <a href='https://x-bundles.ehr-exchange-format.eu/xb-1/main.html' > X-Bundle Registry dedicated entry</a> for consulting the xShare button X-Bundle</p>
+  </blockquote>
+
+  <a name="scope"></a>
+  <h3>Scope</h3>
+  <p>
+    Guide in the implementation and the labeling of the <strong>xShare IPS+R</strong>, facilitating in the access and adoption of the selected specifications.
+  </p>
+
+  <a name="how-to-read"></a>
+  <h3>How to read</h3>
+  <p>
+    The content of this guide is organized following the BDAT (business, data, application, and technology) model:
+  </p>
+  <p>
+    <ul>
+      <li>
+    The <a href="business.html">
+        <strong>business domain</strong>
+      </a> describes the business processes and rules that the xShare IPS+R is supporting.
+    </li>
+    <li>
+    The <a href="content.html">
+      <strong>data domain</strong>
+    </a> describes the data model and the data exchange format.
+  </li>
+  <li>
+    The <a href="application.html">
+    <strong>application domain</strong>
+  </a> describes what are the (software) components involved and how they interact, collaborate, or are coordinated. It also provides an overview of the system architecture.
+</li>
+<li>
+    The <a href="technical.html">
+  <strong>technology domain</strong>
+</a> describes the technology stack and the infrastructure required to support the xShare IPS+R. This includes technical standards, specifications, and security considerations.
+</li>
+</ul>
+
+</p>
+
+</div>
