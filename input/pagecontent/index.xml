@@ -4,19 +4,19 @@
   <blockquote class="dragon">
     <p>The specification herewith documented is a working specification. 
     No liability can be inferred from the use or misuse of this specification, or its consequences.</p>
-    <p>
-  Please refer to the <a href="https://x-bundles.ehr-exchange-format.eu/xb-1/main.html"> X-Bundle Registry dedicated entry</a> for consulting the xShare button X-Bundle</p>
-  </blockquote>
+      </blockquote>
 
-  <a name="scope"></a>
-  <h3 id="scope">Scope<a href="https://build.fhir.org/ig/hl7-eu/xshare-ips+/index.html#scope"></a>
-  </h3>
+  <a name="scope"> </a>
+
+  <h3 id="scope">Scope</h3>
   <p>
     This guide provides instructions to help you understand and implement your product in accordance with the <strong>xShare IPS+</strong>, facilitating in the access and adoption of the selected specifications.
   </p>
 
-  <h3 id="purpose">Purpose<a href="https://build.fhir.org/ig/hl7-eu/xshare-ips+/index.html#purpose"></a>
-  </h3>
+
+  <a name="purpose"> </a>
+
+  <h3 id="purpose">Purpose</h3>
   <p>
     This FHIR Implementation guide is designed to assist users in implementing the ISO International Patient Summary for secondary data purposes, such as clinical research and public health. The xShare specification informs the FHIR International Patient Summary and this is referred to as IPS+. The aim is to solve the existing challenge created by the variability and semantic differences in health data. Addressing this issue successfully will help create a consistent and reliable health data system, improving public health and wellness and to enable clinical research, the results of which can inform healthcare decisions in a learning health system. It will also give individuals greater control over their own health data and support seamless data exchange for both primary and secondary use.
   </p>
@@ -38,9 +38,9 @@
     </li>
   </ul>
 
-  <a name="how-to-read"></a>
-  <h3 id="how-to-read">How to read<a href="https://build.fhir.org/ig/hl7-eu/xshare-ips+/index.html#how-to-read"></a>
-  </h3>
+  <a name="how-to-read"> </a>
+
+  <h3 id="how-to-read">How to read</h3>
   <p>
     The content of this guide is organized following the BDAT (business, data, application, and technology) model, as illustrated in the figure below.
   </p>
