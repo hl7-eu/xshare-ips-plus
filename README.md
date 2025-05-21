@@ -1,3 +1,2 @@
-# xShare IPS+
-
-xShare Project: Guidelines for the usage of the IPS for research purposes (alignment with CDSIC).
+# xShare IPS+R
+xShare Project: Guidelines for the usage of the IPS for research purposes (alignment with CDSIC)

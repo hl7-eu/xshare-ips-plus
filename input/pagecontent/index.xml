@@ -5,44 +5,80 @@
     <p>The specification herewith documented is a working specification. 
     No liability can be inferred from the use or misuse of this specification, or its consequences.</p>
     <p>
-  Please refer to the <a href='https://x-bundles.ehr-exchange-format.eu/xb-1/main.html' > X-Bundle Registry dedicated entry</a> for consulting the xShare button X-Bundle</p>
+  Please refer to the <a href="https://x-bundles.ehr-exchange-format.eu/xb-1/main.html"> X-Bundle Registry dedicated entry</a> for consulting the xShare button X-Bundle</p>
   </blockquote>
 
   <a name="scope"></a>
-  <h3>Scope</h3>
+  <h3 id="scope">Scope<a href="https://build.fhir.org/ig/hl7-eu/xshare-ips+/index.html#scope"></a>
+  </h3>
   <p>
-    Guide in the implementation and the labeling of the <strong>xShare IPS+R</strong>, facilitating in the access and adoption of the selected specifications.
+    This guide provides instructions to help you understand and implement your product in accordance with the <strong>xShare IPS+</strong>, facilitating in the access and adoption of the selected specifications.
   </p>
 
-  <a name="how-to-read"></a>
-  <h3>How to read</h3>
+  <h3 id="purpose">Purpose<a href="https://build.fhir.org/ig/hl7-eu/xshare-ips+/index.html#purpose"></a>
+  </h3>
   <p>
-    The content of this guide is organized following the BDAT (business, data, application, and technology) model:
+    This FHIR Implementation guide is designed to assist users in implementing the ISO International Patient Summary for secondary data purposes, such as clinical research and public health. The xShare specification informs the FHIR International Patient Summary and this is referred to as IPS+. The aim is to solve the existing challenge created by the variability and semantic differences in health data. Addressing this issue successfully will help create a consistent and reliable health data system, improving public health and wellness and to enable clinical research, the results of which can inform healthcare decisions in a learning health system. It will also give individuals greater control over their own health data and support seamless data exchange for both primary and secondary use.
   </p>
   <p>
-    <ul>
-      <li>
-    The <a href="business.html">
-        <strong>business domain</strong>
-      </a> describes the business processes and rules that the xShare IPS+R is supporting.
+    The overarching purpose of this guide is to outline how to use the International Patient Summary for secondary data purposes, such as clinical research and public health. This will improve the usability, the quality, and the timing of the data availability for these purposes. It is important to use secondary data efficiently to improve processes and reduce documentation burden. This guide provides detailed instructions for implementing business use cases, interoperability specifications aligned with international standards, and a standardized core data element set for use across healthcare, population health, and clinical research. To ensure consistency with existing terminologies, we include preferred value sets and code lists.
+  </p>
+  <p>
+    This FHIR Implementation Guide is primarily in the form of downloadable informational materials, spreadsheets, mappings and documents to aid functionalities related to the xShare Yellow Button in support of secondary data use.
+  </p>
+  <p>
+    More specifically, the purpose of this FHIR IG is as follows:
+  </p>
+  <ul>
+    <li> this document specifies the representation of the data elements utilising the HL7 FHIR Implementation Guide for the IPS+, incorporating the minimal additional data elements that will enhance secondary use.
     </li>
+    <li> this document provides the mappings of terminological concepts and value domains to SNOMED CT. It also provides the detailed correspondence of the data elements names and value domains to CDISC SDTM. These mappings are required because the use cases connect the domains of clinical research and healthcare, which (historically and currently) utilise different standards. Clinical trial critical eligibility criteria and research datasets and analysis files are likely to be expressed using CDISC standards or could readily be mapped to them.
+    </li>
+    <li> any party seeking to transform queries containing clinical trial eligibility criteria will therefore need to perform this mapping from CDISC to HL7 FHIR and SNOMED. Similarly, any parties seeking to utilise a patient’s IPS+ within a clinical trial will need to perform the mapping in the other direction to generate CDISC data sets.
+    </li>
+  </ul>
+
+  <a name="how-to-read"></a>
+  <h3 id="how-to-read">How to read<a href="https://build.fhir.org/ig/hl7-eu/xshare-ips+/index.html#how-to-read"></a>
+  </h3>
+  <p>
+    The content of this guide is organized following the BDAT (business, data, application, and technology) model, as illustrated in the figure below.
+  </p>
+
+
+  <div>
+    <p></p>
+    {% include bdat.svg %}
+    <p>
+      <caption>Fig. 1: Navigating this guide</caption>
+    </p>
+  </div>
+
+
+  <p>Where:
+  </p>
+  <ul>
     <li>
-    The <a href="content.html">
-      <strong>data domain</strong>
-    </a> describes the data model and the data exchange format.
+    The <a href="https://build.fhir.org/ig/hl7-eu/xshare-ips+/business.html">
+      <strong>business domain</strong>
+    </a> describes the business rationale of the use cases in clinical research that rely on the IPS+.
   </li>
   <li>
-    The <a href="application.html">
+    The <a href="https://build.fhir.org/ig/hl7-eu/xshare-ips+/application.html">
     <strong>application domain</strong>
-  </a> describes what are the (software) components involved and how they interact, collaborate, or are coordinated. It also provides an overview of the system architecture.
+  </a> describes three use cases in clinical research in detail.
 </li>
 <li>
-    The <a href="technical.html">
-  <strong>technology domain</strong>
-</a> describes the technology stack and the infrastructure required to support the xShare IPS+R. This includes technical standards, specifications, and security considerations.
+    The <a href="https://build.fhir.org/ig/hl7-eu/xshare-ips+/content.html">
+  <strong>data domain</strong>
+</a> describes the IPS+ data model.
+</li>
+<li>
+    The <a href="https://build.fhir.org/ig/hl7-eu/xshare-ips+/technical.html">
+<strong>technology domain</strong>
+</a> describes the technology stack, the use cases flow referencing the infrastructure components required to support these use cases.
 </li>
 </ul>
 
-</p>
-
+<p></p>
 </div>
