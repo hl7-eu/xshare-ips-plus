@@ -26,7 +26,12 @@ This enables identifying favorable sites for study participant recruitment.
 **The Trigger:**
 Multi-stakeholder endorsement of the xShare IPS+ specifications as correct, relevant, practical, and useful for the future of healthcare, treatment innovation, and health system sustainability.
 
-![Feasibility overview](study-feasibility.jpg)
+<div>
+<p> </p>
+  <img alt="Feasibility overview" src="study-feasibility.jpg" style="width: 60%;" />
+<p> </p>
+</div>
+
 
 ---
 
@@ -43,7 +48,12 @@ If needed, patients can share additional personal data with hospitals for compre
 **The Trigger:**
 A citizen wants to know if they are possibly eligible for a clinical trial.
 
-![Study participation overview](study-participation.jpg)
+<div>
+<p> </p>
+  <img alt="Study participation overview" src="study-participation.jpg" style="width: 60%;" />
+<p> </p>
+</div>
+
 
 ---
 
@@ -57,4 +67,10 @@ Health data from EHRs, PHRs, Clinical Data Warehouses, patient registries, disea
 **The Trigger:**
 The patient or clinical trial investigator wants to send Study X data.
 
-![Study data sharing overview](send-data.jpg)
+
+<div>
+<p> </p>
+  <img alt="Study data sharing overview" src="send-data.jpg" style="width: 60%;" />
+<p> </p>
+</div>
+

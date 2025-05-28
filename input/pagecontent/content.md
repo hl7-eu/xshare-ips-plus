@@ -1,4 +1,3 @@
-## Data Domain
 
 The [**data domain**](https://build.fhir.org/ig/hl7-eu/xshare-IPS+/content.html) describes the data model and the data exchange format.
 

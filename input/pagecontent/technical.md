@@ -29,7 +29,12 @@ The list of specific IPS+ data elements that are specific for the business use c
 
 The use cases described in the following paragraphs rely on the base setup as described in this simplified figure.
 
-![Diagram with base setup](base-setup.jpg)
+<div>
+<p> </p>
+  <img alt="Diagram with base setup" src="base-setup.jpg" style="width: 60%;" />
+<p> </p>
+</div>
+
 
 #### Study feasibility
 
@@ -45,7 +50,12 @@ The capability to utilise the IPS+ for study feasibility relies upon a sequence 
 
 A simplified flow noting the environments used is described in the following figure:
 
-![Diagram with study feasibility process](study-feasibility.jpg)
+<div>
+<p> </p>
+  <img alt="Diagram with study feasibility process" src="study-feasibility.jpg" style="width: 60%;" />
+<p> </p>
+</div>
+
 
 #### Individuals share data for potential study participation
 
@@ -69,7 +79,12 @@ Patients and healthy volunteers have access to a PHR app to access their health 
 
 A simplified flow noting the environments used is described in the following figure:
 
-![Diagram with patient participation flow](patient-study.jpg)
+<div>
+<p> </p>
+  <img alt="Diagram with patient participation flow" src="patient-study.jpg" style="width: 60%;" />
+<p> </p>
+</div>
+
 
 #### Study support PHR/EHRs to Study Database Systems or EDC
 
@@ -87,12 +102,23 @@ The consenting patient enrolled in the study is included by the investigative te
 
 A simplified flow noting the environments used in view of a RWE study is described in the following figure:
 
-![Diagram with patient data flow](rwe-flow.jpg)
+<div>
+<p> </p>
+  <img alt="Diagram with patient data flow" src="rwe-flow.jpg" style="width: 60%;" />
+<p> </p>
+</div>
+
 
 A simplified flow noting the environments used in view of a prospective study is described in the following figure.  
 Note that step 4 might require a mapping solution between the IPS+ data pushed from the site and the study database with the sponsor.
 
-![Diagram with study patient flow in prospective trial](rwd-flow.jpg)
+
+<div>
+<p> </p>
+  <img alt="Diagram with study patient flow in prospective trial" src="rwd-flow.jpg" style="width: 60%;" />
+<p> </p>
+</div>
+
 
 It should be noted that the clinical study protocol is likely to contain data elements beyond those defined in the IPS+.  
 The data from the IPS+ will therefore not result in the entire filling of the eCRF.  

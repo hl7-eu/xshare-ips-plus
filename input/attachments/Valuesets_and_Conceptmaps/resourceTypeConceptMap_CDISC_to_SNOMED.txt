@@ -1,0 +1,113 @@
+{
+  "resourceType": "ConceptMap",
+    "id": "eb97cb27-3159-4321-a6ac-ea12949fd2c5",
+    "url": "https://www.cdisc.org/standards/terminology/controlled-terminology/cdisc-to-snomed",
+    "name": "Cdisc to Snomed",
+    "version": "2024",
+    "status": "active",
+  "sourceUri": "https://www.cdisc.org/standards/terminology/controlled-terminology/cdisc-to-snomed",
+  "targetUri": "http://snomed.info/sct",
+  "group": [
+    {
+      "source": "https://www.cdisc.org/standards/terminology/controlled-terminology/cdisc-to-snomed",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "C64432",
+          "display": "Alkaline Phosphatase",
+          "target": [
+            {
+              "code": "175531010000100",
+              "display": "Catalytic concentration of alkaline phosphatase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C64432",
+          "display": "Alkaline Phosphatase",
+          "target": [
+            {
+              "code": "175531010000100",
+              "display": "Catalytic concentration of alkaline phosphatase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C64432",
+          "display": "Alkaline Phosphatase",
+          "target": [
+            {
+              "code": "175531010000100",
+              "display": "Catalytic concentration of alkaline phosphatase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C64433",
+          "display": "ALT SerPl-cCnc",
+          "target": [
+            {
+              "code": "105311010000109",
+              "display": "Catalytic concentration of alanine aminotransferase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C64433",
+          "display": "Alanine Aminotransferase",
+          "target": [
+            {
+              "code": "105311010000109",
+              "display": "Catalytic concentration of alanine aminotransferase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C64433",
+          "display": "Alanine Aminotransferase",
+          "target": [
+            {
+              "code": "105311010000109",
+              "display": "Catalytic concentration of alanine aminotransferase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C64467",
+          "display": "Aspartate Aminotransferase",
+          "target": [
+            {
+              "code": "274161010000103",
+              "display": "Catalytic concentration of aspartate aminotransferase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C64467",
+          "display": "Aspartate Aminotransferase",
+          "target": [
+            {
+              "code": "274161010000103",
+              "display": "Catalytic concentration of aspartate aminotransferase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C64467",
+          "display": "Aspartate Aminotransferase",
+          "target": [
+            {
+              "code": "274161010000103",
+              "display": "Catalytic concentration of aspartate aminotransferase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },

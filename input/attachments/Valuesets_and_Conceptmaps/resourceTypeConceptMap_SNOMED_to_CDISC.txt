@@ -1,0 +1,113 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "8e8ac562-0d5f-4128-816c-645b5e235465",
+  "url": "http://snomed.info/sct/snomed-to-cdisc",
+  "name": "Snomed to Cdisc",
+  "version": "2024",
+  "status": "active",
+  "sourceUri": "http://snomed.info/sct",
+  "targetUri": "https://www.cdisc.org/standards/terminology/controlled-terminology",
+  "group": [
+    {
+      "source": "http://snomed.info/sct",
+      "target": "https://www.cdisc.org/standards/terminology/controlled-terminology",
+      "element": [
+        {
+          "code": "175531010000100",
+          "display": "Catalytic concentration of alkaline phosphatase in serum or plasma at point in time (observable entity)",
+          "target": [
+            {
+              "code": "C64432",
+              "display": "Alkaline Phosphatase",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "175531010000100",
+          "display": "Catalytic concentration of alkaline phosphatase in serum or plasma at point in time (observable entity)",
+          "target": [
+            {
+              "code": "C64432",
+              "display": "Alkaline Phosphatase",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "175531010000100",
+          "display": "Catalytic concentration of alkaline phosphatase in serum or plasma at point in time (observable entity)",
+          "target": [
+            {
+              "code": "C64432",
+              "display": "Alkaline Phosphatase",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "105311010000109",
+          "display": "Catalytic concentration of alanine aminotransferase in serum or plasma at point in time (observable entity)",
+          "target": [
+            {
+              "code": "C64433",
+              "display": "Alanine Aminotransferase",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "105311010000109",
+          "display": "Catalytic concentration of alanine aminotransferase in serum or plasma at point in time (observable entity)",
+          "target": [
+            {
+              "code": "C64433",
+              "display": "Alanine Aminotransferase",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "105311010000109",
+          "display": "Catalytic concentration of alanine aminotransferase in serum or plasma at point in time (observable entity)",
+          "target": [
+            {
+              "code": "C64433",
+              "display": "Alanine Aminotransferase",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "274161010000103",
+          "display": "Catalytic concentration of aspartate aminotransferase in serum or plasma at point in time (observable entity)",
+          "target": [
+            {
+              "code": "C64467",
+              "display": "Aspartate Aminotransferase",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "274161010000103",
+          "display": "Catalytic concentration of aspartate aminotransferase in serum or plasma at point in time (observable entity)",
+          "target": [
+            {
+              "code": "C64467",
+              "display": "Aspartate Aminotransferase",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "274161010000103",
+          "display": "Catalytic concentration of aspartate aminotransferase in serum or plasma at point in time (observable entity)",
+          "target": [
+            {
+              "code": "C64467",
+              "display": "Aspartate Aminotransferase",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
