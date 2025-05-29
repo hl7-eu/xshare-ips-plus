@@ -66,6 +66,12 @@ FHIR-CDISC mapping documents and aligned **value sets** aid in enabling secondar
 
 #### Illustrations
 
-![Mapping illustration for medical history](medical-history.jpg)
+<div>
+<p> </p>
+  <img alt="Mapping illustration for medical history" src="medical-history.jpg" style="width: 60%;" />
+<p> </p>
+<p> </p>
+  <img alt="Diagram of terminology and model concepts" src="diagram-funnel.jpg" style="width: 60%;" />
+<p> </p>
 
-![Diagram of terminology and model concepts](diagram-funnel.jpg)
+</div>
