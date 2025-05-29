@@ -75,6 +75,9 @@ pages:
 #  special-url:
 #    - https://spor.ema.europa.eu/v1/lists/100000000004
 
+parameters:
+  path-pages:
+  - input/attachments
 
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
