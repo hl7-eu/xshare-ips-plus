@@ -15,6 +15,10 @@ The figure above provides a view of the data elements as recommended in the *Pro
 
 The data element concepts are aligned with the CDISC Domain and the equivalent IPS Category.
 
+<p> </p>
+  <img alt="IPS+ Data Elements Overview" src="IPS+overview.jpg" style="width: 60%;" />
+<p> </p>
+
 * **White elements**: Present in the ISO IPS
 * **Black elements**: Supplementary, proposed to support clinical research and public health (e.g., Research Subject Identifier, Adverse Event, Healthcare Encounter)
 
