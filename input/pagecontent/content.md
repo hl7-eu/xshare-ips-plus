@@ -1,5 +1,5 @@
 
-The [**data domain**](https://build.fhir.org/ig/hl7-eu/xshare-IPS+/content.html) describes the data model and the data exchange format.
+The [**data domain**](https://build.fhir.org/ig/hl7-eu/xshare-IPS-plus/content.html) describes the data model and the data exchange format.
 
 <div>
 <p> </p>
@@ -7,7 +7,7 @@ The [**data domain**](https://build.fhir.org/ig/hl7-eu/xshare-IPS+/content.html)
 <p> </p>
 </div>
 
-The figure above provides a view of the data elements as recommended in the *Proposal for a harmonized core data set across health care, population health and clinical research* for the content of the IPS+. These recommendations are the results of:
+The figure below provides a view of the data elements as recommended in the *Proposal for a harmonized core data set across health care, population health and clinical research* for the content of the IPS+. These recommendations are the results of:
 
 * Substantial desk research and analysis across multiple data element lists from European and US projects
 * Prioritization of elements most commonly included in clinical trial protocols
@@ -54,7 +54,7 @@ The SAE report includes:
 * Actions taken
 
 All these components are included in the IPS+ data model.
-**Automating** SAE population in an eCRF via EEHRxF would greatly improve safety workflows.
+**Automating** SAE population in an eCRF via European EHRxF would greatly improve safety workflows.
 
 ---
 
