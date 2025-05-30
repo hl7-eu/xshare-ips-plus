@@ -28,7 +28,7 @@ Multi-stakeholder endorsement of the xShare IPS+ specifications as correct, rele
 
 <div>
 <p> </p>
-  <img alt="Feasibility overview" src="study-feasibility.jpg" style="width: 60%;" />
+  <img alt="Feasibility overview" src="Study-feasibility-overview.jpg" style="width: 60%;" />
 <p> </p>
 </div>
 
@@ -70,7 +70,7 @@ The patient or clinical trial investigator wants to send Study X data.
 
 <div>
 <p> </p>
-  <img alt="Study data sharing overview" src="send-data.jpg" style="width: 60%;" />
+  <img alt="Study data sharing overview" src="Send-data-overview.jpg" style="width: 60%;" />
 <p> </p>
 </div>
 
