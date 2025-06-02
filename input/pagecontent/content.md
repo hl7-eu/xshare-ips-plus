@@ -7,7 +7,7 @@ The [**data domain**](https://build.fhir.org/ig/hl7-eu/xshare-IPS-plus/content.h
 <p> </p>
 </div>
 
-The figure below provides a view of the data elements as recommended in the *Proposal for a harmonized core data set across health care, population health and clinical research* for the content of the IPS+. These recommendations are the results of:
+The figure below provides a view of the data elements as recommended in the [*Proposal for a harmonized core data set across health care, population health and clinical research*](https:./ig-assets/Proposal_for_a_harmonized_core_data_set_across_health_care_population_health_and_clinical_research.pdf) for the content of the IPS+. These recommendations are the results of:
 
 * Substantial desk research and analysis across multiple data element lists from European and US projects
 * Prioritization of elements most commonly included in clinical trial protocols
