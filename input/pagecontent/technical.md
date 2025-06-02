@@ -179,3 +179,41 @@ This differs from the data quality and utility label to be applied to datasets f
 The EHDS Regulation sets no minimum data quality standard for primary use (but only that it is documented by EHR vendors) and makes no provision for any efforts that should be undertaken by Member States, health systems or EHR vendors to assure good data quality or to improve poor data quality.  
 This means that the IPS+ data will be obtained “as is”.  
 If the clinical research use cases have minimum data quality standards — for example, before data is transferred into a study database — then these data quality assessments need to be undertaken by the party orchestrating the data transfer.
+
+### Links to relevant information
+
+Relevant information for research and secondary use of data:
+
+- [HL7 Vulcan Adverse Event Clinical Research v1.0.1](https://hl7.org/fhir/uv/ae-research-ig/)
+- [HL7 Vulcan Adverse Event Clinical Research R4 Backport v1.0.1](https://hl7.org/fhir/uv/ae-research-backport-ig/)
+- [HL7 Vulcan Retrieval of Real World Data for Clinical Research v1.0.0](https://hl7.org/fhir/uv/vulcan-rwd/)
+- [HL7 Vulcan Clinical Study Schedule of Activities v1.0.0](https://hl7.org/fhir/uv/vulcan-schedule/)
+- [FHIR to CDISC Joint Mapping Implementation Guide v1.0.0](http://hl7.org/fhir/uv/cdisc-mapping/STU1/)
+- [CDISC/TransCelerate Digital Data Flow and The Unified Study Definitions Model](https://www.cdisc.org/ddf)
+- [CDISC Study Data Tabulation Model v2.0 & Study Data Tabulation Model Implementation Guide (SDTMIG) v3.4](https://www.cdisc.org/standards/foundational/sdtmig)
+- [CDISC Clinical Data Acquisition Standards Harmonization Implementation Guides (CDASHIGs) v2.3 (and CDASH Model v1.3)](https://www.cdisc.org/standards/foundational/cdash) Includes Case Report Form examples
+- [CDISC CDASH Serious Adverse Event (SAE) Supplement v2.0](https://www.cdisc.org/standards/foundational/cdash/cdash-sae-supplement-v2-0)
+- [CDISC Controlled Terminology](https://www.cdisc.org/standards/terminology/controlled-terminology) (also available in the CDISC Library through the API)
+- [CDISC Therapeutic Area by Disease](https://www.cdisc.org/standards/therapeutic-areas/disease-area) (includes example CRFs and data tables—CDASH, SDTM, ADaM)
+- [CDISC SDTM and SDTMIG Conformance Rules v2.0](https://www.cdisc.org/standards/foundational/sdtmig/sdtm-and-sdtmig-conformance-rules-v2-0)
+- [Pinnacle21](https://www.pinnacle21.com/about) (Conformance Rule tool)
+- [NIH NCI EVS Thesaurus Browser](https://evsexplore.semantics.cancer.gov/evsexplore/welcome) (source for Data Element Concepts)
+- [CDISC eCRF Portal](https://www.cdisc.org/kb/ecrf) Examples Collection and Articles, includes RedCap link with CDASH forms
+- [CDISC Library](https://www.cdisc.org/cdisc-library) uses linked data and a REST API to deliver CDISC standards metadata to software applications that automate standards-based processes
+- [CDISC Data Exchange Standards](https://www.cdisc.org/standards/data-exchange)
+- [IHE International Quality, Research and Public Health](https://www.ihe.net/ihe_domains/quality_research_and_public_health/) includes integration profiles:
+  - Retrieve Form for data capture (RFD)
+  - Retrieve protocol for execution (RPE)
+- [Biomedical Research Integrated Domain Group (BRIDG)](https://bridgmodel.nci.nih.gov/) and [ISO standard](https://www.iso.org/standard/83433.html)
+- [Clinical Research Sponsor Laboratory Semantics in FHIR Implementation Guide](https://hl7.org/fhir/uv/cdisc-lab/)
+- [OHDSI Clinical Trials Working Group](https://github.com/OHDSI/ClinicalTrialsWGETL/wiki) (draft maps from SDTM to OMOP)
+- [SNOMED-CT – LOINC browser](https://loincsnomed.org/)
+
+Additional references that may be helpful, however, were not specifically designed targeting secondary uses of data are:
+
+- [EU Public Health Electronic cross-border health services](https://health.ec.europa.eu/ehealth-digital-health-and-care/electronic-cross-border-health-services_en)
+- [FHIR Registry of IGs](https://fhir.org/guides/registry/)
+- [EU FHIR Extensions](https://hl7.eu/fhir/extensions/)
+- [EU Laboratory FHIR IG](https://hl7.eu/fhir/laboratory/)
+- [Provenance guidance](https://hl7.org/fhir/us/davinci-cdex/task-based-approach.html#provenance) 
+	
