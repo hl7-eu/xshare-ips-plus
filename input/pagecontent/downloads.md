@@ -21,7 +21,7 @@ Download the entire implementation guide [here](full-ig.zip).
 - [08_FHIR-Encounter_to_SDTM_HO.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/08_FHIR-Encounter_to_SDTM_HO.xlsx)
 - [09_StructureDefinition-DiagnosticReport-uv-ips_to_SDTM.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/09_StructureDefinition-DiagnosticReport-uv-ips_to_SDTM.xlsx)
 - [10_StructureDefinition-AllergyIntolerance-uv-ips_to_SDTM_MH.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/10_StructureDefinition-AllergyIntolerance-uv-ips_to_SDTM_MH.xlsx)
-- [11_StructureDefinition-Immunization-uv-ips_to_SDTM_CM.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/11_StructureDefinition-Immunization-uv-ips_to_SDTM_CM)
+- [11_StructureDefinition-Immunization-uv-ips_to_SDTM_CM.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/11_StructureDefinition-Immunization-uv-ips_to_SDTM_CM.xlsx)
 - [resourceTypeConceptMap_CDISC_to_SNOMED.txt](ig-assets/Valuesets_and_Conceptmaps/resourceTypeConceptMap_CDISC_to_SNOMED.txt)
 - [resourceTypeConceptMap_LOINC_to_SNOMED.txt](ig-assets/Valuesets_and_Conceptmaps/resourceTypeConceptMap_LOINC_to_SNOMED.txt)
 - [resourceTypeConceptMap_SNOMED_to_CDISC.txt](ig-assets/Valuesets_and_Conceptmaps/resourceTypeConceptMap_SNOMED_to_CDISC.txt)
