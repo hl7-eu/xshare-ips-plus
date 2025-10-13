@@ -6,9 +6,7 @@ Download the entire implementation guide [here](full-ig.zip).
 ### IG Assets
 
 - [Analysis_of_business_use_cases_for_use_of_EHRxF_HIDs_in_clinical_research.pdf](ig-assets/Analysis_of_business_use_cases_for_use_of_EHRxF_HIDs_in_clinical_research.pdf)
-- [IPS_FHIR_to_CDISC_SDTM](ig-assets/IPS_FHIR_to_CDISC_SDTM)
 - [Proposal_for_a_harmonized_core_data_set_across_health_care_population_health_and_clinical_research.pdf](ig-assets/Proposal_for_a_harmonized_core_data_set_across_health_care_population_health_and_clinical_research.pdf)
-- [Valuesets_and_Conceptmaps](ig-assets/Valuesets_and_Conceptmaps)
 - [xSHARE_Data_Elements_w_C-Codes_and_SNOMED_Codes.xlsx](ig-assets/xSHARE_Data_Elements_w_C-Codes_and_SNOMED_Codes.xlsx)
 - [01_StructureDefinition-Patient-uv-ips_to_SDTM.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/01_StructureDefinition-Patient-uv-ips_to_SDTM.xlsx)
 - [02_StructureDefinition-Condition-uv-ips_Problem_HxProblem_to_SDTM_MH.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/02_StructureDefinition-Condition-uv-ips_Problem_HxProblem_to_SDTM_MH.xlsx)
