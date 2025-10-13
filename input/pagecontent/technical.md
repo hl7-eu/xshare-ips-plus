@@ -29,6 +29,7 @@ The content available for download includes:
   - [Procedures](https:./ig-assets/IPS_FHIR_to_CDISC_SDTM/07_StructuredDefinition-Procedure-uv-ips_to_SDTM_PR.xlsx),
   - [Diagnostic Report](https:./ig-assets/IPS_FHIR_to_CDISC_SDTM/09_StructureDefinition-DiagnosticReport-uv-ips_to_SDTM.xlsx),
   - [Allergy and Intollerance](https:./ig-assets/IPS_FHIR_to_CDISC_SDTM/10_StructureDefinition-AllergyIntolerance-uv-ips_to_SDTM_MH.xlsx),
+  - [Immunization](https:./ig-assets/IPS_FHIR_to_CDISC_SDTM/11_StructureDefinition-Immunization-uv-ips_to_SDTM_CM.xlsx),
   - the base R4 FHIR [resource Encounter](https:./ig-assets/IPS_FHIR_to_CDISC_SDTM/08_FHIR-Encounter_to_SDTM_HO.xlsx);
 - and xShare [routine laboratory data items](https:./ig-assets/Valuesets_and_Conceptmaps/xShare_Routine_labs.xlsx),
 - [microbiology data items](https:./ig-assets/Valuesets_and_Conceptmaps/xSHARE_Microbiology_Data_Elements.xlsx) (with SNOMED codes and CDISC C-codes),
