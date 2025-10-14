@@ -1,0 +1,14 @@
+{
+  "package-id" : "hl7.eu.fhir.xshare-ips-plus",
+  "version" : "0.1.0",
+  "path" : "http://hl7.eu/fhir/ig/xshare-ips-plus/0.1.0",
+  "status" : "qa-preview",
+  "sequence" : "Release 1",
+  "first": true,
+  "mode": "milestone",
+  "ci-build": "https://build.fhir.org/ig/hl7-eu/xshare-ips-plus",
+  "desc" : "First preview release of the xShare Project IPS+ Implementation Guide.",
+  "title" : "xShare Project IPS+ Implementation Guide",
+  "category" : "EHDS",
+  "introduction" : "This guide provides instructions to help you understand and implement your product in accordance with the xShare IPS+, facilitating in the access and adoption of the selected specifications."
+}

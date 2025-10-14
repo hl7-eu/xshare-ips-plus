@@ -2,7 +2,7 @@
 
 
 The **application domain** summarises the main business use cases for clinical research that can take advantage of the future wide European adoption of the IPS+.
-The full details of these use cases are given in [*Analysis of business use cases for use of EHRxF HIDs in clinical research*](https:./ig-assets/Analysis_of_business_use_cases_for_use_of_EHRxF_HIDs_in_clinical_research.pdf), which the reader is encouraged to review before adopting the specification presented here.
+The full details of these use cases are given in [*Analysis of business use cases for use of EHRxF HIDs in clinical research*](ig-assets/Analysis_of_business_use_cases_for_use_of_EHRxF_HIDs_in_clinical_research.pdf), which the reader is encouraged to review before adopting the specification presented here.
 
 <div>
 <p> </p>

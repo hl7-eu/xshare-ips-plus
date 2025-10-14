@@ -4,9 +4,9 @@
   <blockquote class="dragon">
     <p>The specification herewith documented is a working specification. 
     No liability can be inferred from the use or misuse of this specification, or its consequences.</p>
-      </blockquote>
+  </blockquote>
 
-  <a name="scope"> </a>
+  <a name="scope"></a>
 
   <h3 id="scope">Scope</h3>
   <p>
@@ -14,7 +14,7 @@
   </p>
 
 
-  <a name="purpose"> </a>
+  <a name="purpose"></a>
 
   <h3 id="purpose">Purpose</h3>
   <p>
@@ -38,7 +38,7 @@
     </li>
   </ul>
 
-  <a name="how-to-read"> </a>
+  <a name="how-to-read"></a>
 
   <h3 id="how-to-read">How to read</h3>
   <p>
@@ -47,14 +47,13 @@
 
 
   <div>
-    <p></p>
-    {% include bdat.svg %}
-    <p>
-      <caption>Fig. 1: Navigating this guide</caption>
-    </p>
+
+    <figure>
+      <p></p>
+       {% include bdat.svg %}
+      <figcaption>Fig. 1: Navigating this guide</figcaption>
+    </figure>
   </div>
-
-
   <p>Where:
   </p>
   <ul>
