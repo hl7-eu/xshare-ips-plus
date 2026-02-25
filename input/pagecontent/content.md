@@ -17,7 +17,7 @@ The data element concepts are aligned with the CDISC Domain and the equivalent I
 
 <div>
 <p> </p>
-  <img alt="IPS+ Data Elements Overview" src="IPS+Overview.jpg" style="width: 60%;" />
+  <img alt="IPS+ Data Elements Overview" src="IPS+Overview.png" style="width: 60%;" />
 <p> </p>
 </div>
 
