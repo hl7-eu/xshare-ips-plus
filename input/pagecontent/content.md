@@ -7,6 +7,10 @@ The [**data domain**](https://build.fhir.org/ig/hl7-eu/xshare-IPS-plus/content.h
 <p> </p>
 </div>
 
+<p>The main purpose of the IPS+ content is connecting health and healthcare to research and public health. When one thinks of research and public health, one thinks of CDISC suite of standards which is why the mapping of the data elements goes to the CDISC standards which support rigorous clinical trials and are required for submissions to regulatory bodies. The OMOP common data model, and HL7 FHIR have content as well; however, the use cases are different. OMOP provides the signals of what is happening in the world; whereas CDISC provides the structure and rigor CDISC required to test the hypothesis of what scientists would like to verify. FHIR provides the exchange standards for communicating between stakeholders. The key connector is the data element concept.</p>
+
+<p>The guide includes data element concepts common across health, research and public health and maps them. The maps provide the NIH NCIt C-codes that link to the CDISC biomedical concepts thus enabling end users to pull in the entire picture (all pertinent variables surrounding the concept to fully inform the question and answer). This is needed to test the hypothesis through the observational data. CDISC standards support end –to-end research and the tools within this guide are meant to connect HL7 FHIR, CDISC standards and the OMOP common data model with guidance for the CDISC terminology, and SNOMED. LOINC is used where appropriate. This linkage uses the core harmonized data element set.</p>
+
 The figure below provides a view of the data elements as recommended in the [*Proposal for a harmonized core data set across health care, population health and clinical research*](ig-assets/Proposal_for_a_harmonized_core_data_set_across_health_care_population_health_and_clinical_research.pdf) for the content of the IPS+. These recommendations are the results of:
 
 * Substantial desk research and analysis across multiple data element lists from European and US projects
@@ -77,10 +81,11 @@ Note that CDISC uses MedDRA codes, whereas the IPS is assumed to use SNOMED CT. 
 #### Illustrations
 
 <div>
-<p> </p>
+<p>The illustrations show how the data element concepts connect across the supporting data element items. The key topic variable is the main data element that without it, the rest of the data element items are meaningless. The below figure shows the question and the answers on the case report form for medical history. The table on the right shows the medical history term (condition) and the surrounding related variables (supplemental qualifiers) that would be found in the biomedical concept for medical history (Medical History Reported Term), bc id C83119 which is the same as the nci code of C83118. The figure shows how SNOMED terminology represents the question of “what is the clinical finding?” and the answer of “diabetes mellitus” (with the corresponding SNOMED codes).
+ </p>
   <img alt="Mapping illustration for medical history" src="medical-history.jpg" style="width: 60%;" />
 <p> </p>
-<p> </p>
+<p>Below figure is another view of how the data element concepts are related. The funnel as the connector by concepts and terminology and the surrounding concepts as the qualifying data element items that support the data element concepts. In CDISC terms, the Reported Term for the Medical History (MHTERM) with the synonym qualifier of the Dictionary-Derived Term (MHDECOD), the timing variables of the Start Date/Time of the Medical History Event and the End Date/Time of the Medical History Event. The Medical History Event Date Type (MHEVDTYP) is a qualifier used to represent the aspect of the medical condition or event by which MHSTDTC and/or the MHENDTC is defined. Examples: "DIAGNOSIS", "SYMPTOMS", "RELAPSE", "INFECTION". In clinical research, the question is often asked if the event is ongoing which is a CDASHIG variable, Ongoing Medical History Event (MHONGO). The terminology provides the traceability across the CDISC suite of standards as well as across standard to standard. </p>
   <img alt="Diagram of terminology and model concepts" src="diagram-funnel.jpg" style="width: 60%;" />
 <p> </p>
 
