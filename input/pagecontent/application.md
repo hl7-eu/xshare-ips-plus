@@ -48,7 +48,7 @@ A citizen wants to know if they are possibly eligible for a clinical trial.
 
 <div>
 <p> </p>
-  <img alt="Study participation overview" src="study-participation.jpg" style="width: 60%;" />
+  <img alt="Study participation overview" src="study-participation.png" style="width: 60%;" />
 <p> </p>
 </div>
 
