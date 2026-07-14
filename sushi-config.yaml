@@ -56,6 +56,8 @@ pages:
 #    title: xShare IPS+
   about.xml:
     title: About
+  copyrights.md:
+    title: Copyrights
   
 #  implementation.md:
 #    title: Implementation Considerations
@@ -102,7 +104,9 @@ menu:
   Technology: technical.html
   Downloads: downloads.html
 #    Overview: technical.html
-  About: about.html
+  About: 
+    About: about.html
+    Copyrights: copyrights.html
 
   # Button: button.html
  # MPD: 
