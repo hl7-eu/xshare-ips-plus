@@ -11,10 +11,5 @@
 
 {% include globals-table.xhtml %}
 
-<a name="ip-statements"></a>
-
-<!-- <h3>IP Statements</h3>
-
-{% include ip-statements.xhtml %} -->
 
 </div>

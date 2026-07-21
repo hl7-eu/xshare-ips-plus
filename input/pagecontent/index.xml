@@ -58,22 +58,22 @@
   </p>
   <ul>
     <li>
-    The <a href="https:./business.html">
+    The <a href="business.html">
       <strong>business domain</strong>
     </a> describes the business rationale of the use cases in clinical research that rely on the IPS+.
   </li>
   <li>
-    The <a href="https:./application.html">
+    The <a href="application.html">
     <strong>application domain</strong>
   </a> describes three use cases in clinical research in detail.
 </li>
 <li>
-    The <a href="https:./content.html">
+    The <a href="content.html">
   <strong>data domain</strong>
 </a> describes the IPS+ data model.
 </li>
 <li>
-    The <a href="https:./technical.html">
+    The <a href="technical.html">
 <strong>technology domain</strong>
 </a> describes the technology stack, the use cases flow referencing the infrastructure components required to support these use cases.
 </li>
