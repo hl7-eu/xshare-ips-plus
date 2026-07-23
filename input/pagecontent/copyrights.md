@@ -8,13 +8,13 @@ This guide contains references to, mappings to, and dependencies on third-party 
 
 Terminology licenses, where required, must be obtained from the relevant rights holder or authorized distributor. Use of this guide does not grant a license to use any third-party terminology, code system, standard, mapping, or conformance rule beyond the rights expressly provided by the owner or publisher of that material.
 
-## HL7 IPS and FHIR
+### HL7 IPS and FHIR
 
 This guide builds on the HL7 FHIR standard and the HL7 International Patient Summary (IPS) FHIR Implementation Guide. Intellectual property and license requirements for the HL7 IPS specification are documented on the [HL7 IPS Copyrights](https://hl7.org/fhir/uv/ips/en/copyrights.html) page. Implementers should also review the applicable HL7 FHIR license terms for the FHIR version and packages used in their implementation.
 
 HL7, Health Level Seven, and FHIR are trademarks of Health Level Seven International.
 
-## CDISC standards and terminology
+### CDISC standards and terminology
 
 This guide references CDISC standards and includes mapping artifacts intended to support alignment between IPS/FHIR content and CDISC models, including SDTM and CDISC Controlled Terminology. CDISC standards, documentation, controlled terminology, names, trademarks, and related materials remain the intellectual property of CDISC or its licensors, as applicable.
 
@@ -24,7 +24,7 @@ CDISC Controlled Terminology is developed and maintained by CDISC in collaborati
 
 The CDISC-related mapping artifacts included in this guide are provided to support interoperability analysis and implementation. They do not grant rights to CDISC standards or terminology, do not replace official CDISC publications, and should not be treated as authoritative CDISC specifications. Implementers remain responsible for validating their use of CDISC standards and terminology against the official CDISC and NCI EVS sources, especially for regulatory submission use.
 
-## Other terminology systems
+### Other terminology systems
 
 This guide may reference additional third-party terminology systems, including but not limited to SNOMED CT, LOINC, UCUM, and NCI Thesaurus content. Each of these systems is governed by its own license terms. Implementers are responsible for obtaining and complying with all licenses required for the jurisdictions, deployment settings, and use cases in which their implementations operate.
 
@@ -44,6 +44,6 @@ The following non-exhaustive list identifies commonly referenced third-party ter
 | BCP 47 language tags | IETF Trust and identified document authors | <https://trustee.ietf.org/license-info/> |
 | ISCO classification system | International Labour Organization (ILO) | <https://www.ilo.org/copyright> |
 
-## No warranty
+### No warranty
 
 The xShare IPS+ Implementation Guide and associated artifacts are provided for implementation and evaluation purposes. They are provided "as is", without warranties or representations of any kind. Responsibility for legal, licensing, regulatory, and intellectual property compliance rests with each organization using or implementing this guide.
