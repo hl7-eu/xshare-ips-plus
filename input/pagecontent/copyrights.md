@@ -2,7 +2,7 @@ The xShare IPS+ Implementation Guide is produced by the xShare project. Except w
 
 This CC0 dedication applies only to material for which the xShare project owns the relevant rights or is otherwise entitled to apply CC0. It does not change, waive, or replace the copyright, trademark, patent, database, terminology, or other intellectual property rights of third parties.
 
-## Third-party intellectual property
+### Third-party intellectual property
 
 This guide contains references to, mappings to, and dependencies on third-party specifications, terminologies, code systems, value sets, and supporting artifacts ("Third Party IP"). Implementers, testers, and users of this guide are responsible for identifying the third-party material they use in their own products, services, publications, submissions, or deployments, and for complying with the applicable license terms and conditions for that material.
 
