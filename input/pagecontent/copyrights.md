@@ -2,23 +2,23 @@ The xShare IPS+ Implementation Guide is produced by the xShare project. Except w
 
 This CC0 dedication applies only to material for which the xShare project owns the relevant rights or is otherwise entitled to apply CC0. It does not change, waive, or replace the copyright, trademark, patent, database, terminology, or other intellectual property rights of third parties.
 
-## Third-party intellectual property
+### Third-party intellectual property
 
 This guide contains references to, mappings to, and dependencies on third-party specifications, terminologies, code systems, value sets, and supporting artifacts ("Third Party IP"). Implementers, testers, and users of this guide are responsible for identifying the third-party material they use in their own products, services, publications, submissions, or deployments, and for complying with the applicable license terms and conditions for that material.
 
 Terminology licenses, where required, must be obtained from the relevant rights holder or authorized distributor. Use of this guide does not grant a license to use any third-party terminology, code system, standard, mapping, or conformance rule beyond the rights expressly provided by the owner or publisher of that material.
 
-## HL7 IPS and FHIR
+### HL7 IPS and FHIR
 
 This guide builds on the HL7 FHIR standard and the HL7 International Patient Summary (IPS) FHIR Implementation Guide. Intellectual property and license requirements for the HL7 IPS specification are documented on the [HL7 IPS Copyrights](https://hl7.org/fhir/uv/ips/en/copyrights.html) page. Implementers should also review the applicable HL7 FHIR license terms for the FHIR version and packages used in their implementation.
 
 HL7, Health Level Seven, and FHIR are trademarks of Health Level Seven International.
 
-## CDISC standards and terminology
+### CDISC standards and terminology
 
 This xShare work leveraged the CDISC standards and terminology while advancing interoperability across healthcare, public health, and clinical research.  The CDISC standards are to be used in accordance with the CDISC Intellectual Property Policy, which ensures that the CDISC standards remain the property of CDISC such that they can be used openly without fear of royalties being initiated by users/developers.  See the CDISC IP policy: https://www.cdisc.org/sites/default/files/2020-09/cdisc_policy_003_intellectual_property_v2019.pdf
 
-## Other terminology systems
+### Other terminology systems
 
 This guide may reference additional third-party terminology systems, including but not limited to SNOMED CT, LOINC, UCUM, and NCI Thesaurus content. Each of these systems is governed by its own license terms. Implementers are responsible for obtaining and complying with all licenses required for the jurisdictions, deployment settings, and use cases in which their implementations operate.
 
@@ -38,6 +38,6 @@ The following non-exhaustive list identifies commonly referenced third-party ter
 | BCP 47 language tags | IETF Trust and identified document authors | <https://trustee.ietf.org/license-info/> |
 | ISCO classification system | International Labour Organization (ILO) | <https://www.ilo.org/copyright> |
 
-## No warranty
+### No warranty
 
 The xShare IPS+ Implementation Guide and associated artifacts are provided for implementation and evaluation purposes. They are provided "as is", without warranties or representations of any kind. Responsibility for legal, licensing, regulatory, and intellectual property compliance rests with each organization using or implementing this guide.
