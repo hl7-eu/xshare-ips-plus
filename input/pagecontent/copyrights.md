@@ -16,13 +16,7 @@ HL7, Health Level Seven, and FHIR are trademarks of Health Level Seven Internati
 
 ## CDISC standards and terminology
 
-This guide references CDISC standards and includes mapping artifacts intended to support alignment between IPS/FHIR content and CDISC models, including SDTM and CDISC Controlled Terminology. CDISC standards, documentation, controlled terminology, names, trademarks, and related materials remain the intellectual property of CDISC or its licensors, as applicable.
-
-CDISC standards in document format are made available by CDISC subject to CDISC's published license terms and conditions. Those terms may restrict redistribution, derivative works, publication, or other uses even where access to the standards is free of charge. Users of this guide should review and comply with the current [CDISC Terms and Conditions](https://www.cdisc.org/terms-and-conditions) before reproducing, distributing, adapting, or publishing CDISC standards content.
-
-CDISC Controlled Terminology is developed and maintained by CDISC in collaboration with the U.S. National Cancer Institute Enterprise Vocabulary Services (NCI EVS), and is published through NCI EVS terminology distribution channels. CDISC Controlled Terminology includes codelists, submission values, definitions, synonyms, and NCI Thesaurus concept identifiers, including CDISC C-codes. Users should review the current [CDISC Controlled Terminology](https://www.cdisc.org/standards/terminology/controlled-terminology) publication information and the applicable CDISC and NCI EVS access and license terms for the specific terminology release and format they use.
-
-The CDISC-related mapping artifacts included in this guide are provided to support interoperability analysis and implementation. They do not grant rights to CDISC standards or terminology, do not replace official CDISC publications, and should not be treated as authoritative CDISC specifications. Implementers remain responsible for validating their use of CDISC standards and terminology against the official CDISC and NCI EVS sources, especially for regulatory submission use.
+This xShare work leveraged the CDISC standards and terminology while advancing interoperability across healthcare, public health, and clinical research.  The CDISC standards are to be used in accordance with the CDISC Intellectual Property Policy, which ensures that the CDISC standards remain the property of CDISC such that they can be used openly without fear of royalties being initiated by users/developers.  See the CDISC IP policy: https://www.cdisc.org/sites/default/files/2020-09/cdisc_policy_003_intellectual_property_v2019.pdf
 
 ## Other terminology systems
 

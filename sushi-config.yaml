@@ -81,6 +81,7 @@ pages:
 parameters:
   path-pages:
   - input/attachments
+  
 
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
@@ -102,7 +103,9 @@ menu:
   Application: application.html
 #    Overview: application.html
   Data: content.html
-  Technology: technical.html
+  Technology: 
+    Overview: technical.html
+    Artifacts: artifacts.html
   Downloads: downloads.html
 #    Overview: technical.html
   About: 
