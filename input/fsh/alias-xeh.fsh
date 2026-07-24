@@ -2,6 +2,8 @@
 //============== ALIAS ===============
 
 // --- Code Systems
+
+Alias: $cdisc = https://www.cdisc.org/standards/terminology/controlled-terminology 
 Alias: $ajcc = http://cancerstaging.org
 Alias: $atc = http://www.whocc.no/atc
 Alias: $dicomOntology = http://dicom.nema.org/resources/ontology/DCM

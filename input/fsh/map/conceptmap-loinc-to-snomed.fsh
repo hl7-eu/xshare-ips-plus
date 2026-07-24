@@ -4,12 +4,14 @@ Usage: #definition
 Title: "Loinc to Snomed"
 Description: "Concept map converted from resourceTypeConceptMap_LOINC_to_SNOMED.txt."
 // * url = "http://loinc.org/loinc-to-snomed"
+
+* experimental = false
 * name = "LoincToSnomed"
 * title = "Loinc to Snomed"
 * version = "2024"
 * status = #active
 * sourceUri = "http://loinc.org/vs"
-* targetUri = "http://snomed.info/sct"
+* targetUri = Canonical(SnomedAllVs)
 * group[0].source = "http://loinc.org"
 * group[0].target = "http://snomed.info/sct"
 * group[0].element[0].code = #6768-6
