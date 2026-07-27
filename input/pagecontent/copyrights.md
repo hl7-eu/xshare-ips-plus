@@ -16,7 +16,7 @@ HL7, Health Level Seven, and FHIR are trademarks of Health Level Seven Internati
 
 ### CDISC standards and terminology
 
-This xShare work leveraged the CDISC standards and terminology while advancing interoperability across healthcare, public health, and clinical research.  The CDISC standards are to be used in accordance with the CDISC Intellectual Property Policy, which ensures that the CDISC standards remain the property of CDISC such that they can be used openly without fear of royalties being initiated by users/developers.  See the CDISC IP policy: https://www.cdisc.org/sites/default/files/2020-09/cdisc_policy_003_intellectual_property_v2019.pdf
+The xShare work leveraged the CDISC standards and terminology while advancing interoperability across healthcare, public health, and clinical research.  The CDISC standards are to be used in accordance with the CDISC Intellectual Property Policy, which ensures that the CDISC standards remain the property of CDISC such that they can be used openly without royalties being initiated by users/developers for the use of the standards and in alignment with the current and future CDISC IP policies.  [CDISC Policy 003 - Intellectual Property 2024 FINAL.pdf](https://www.cdisc.org/sites/default/files/2024-08/CDISC%20Policy%20003%20-%20Intellectual%20Property%202024%20FINAL.pdf)
 
 ### Other terminology systems
 
