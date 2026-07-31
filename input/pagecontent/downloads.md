@@ -20,12 +20,9 @@ Download the entire implementation guide [here](full-ig.zip).
 - [09_StructureDefinition-DiagnosticReport-uv-ips_to_SDTM.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/09_StructureDefinition-DiagnosticReport-uv-ips_to_SDTM.xlsx)
 - [10_StructureDefinition-AllergyIntolerance-uv-ips_to_SDTM_MH.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/10_StructureDefinition-AllergyIntolerance-uv-ips_to_SDTM_MH.xlsx)
 - [11_StructureDefinition-Immunization-uv-ips_to_SDTM_CM.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/11_StructureDefinition-Immunization-uv-ips_to_SDTM_CM.xlsx)
-- [resourceTypeConceptMap_CDISC_to_SNOMED.txt](ig-assets/Valuesets_and_Conceptmaps/resourceTypeConceptMap_CDISC_to_SNOMED.txt)
-- [resourceTypeConceptMap_LOINC_to_SNOMED.txt](ig-assets/Valuesets_and_Conceptmaps/resourceTypeConceptMap_LOINC_to_SNOMED.txt)
-- [resourceTypeConceptMap_SNOMED_to_CDISC.txt](ig-assets/Valuesets_and_Conceptmaps/resourceTypeConceptMap_SNOMED_to_CDISC.txt)
-- [resourceTypeConceptMap_SNOMED_to_LOINC.txt](ig-assets/Valuesets_and_Conceptmaps/resourceTypeConceptMap_SNOMED_to_LOINC.txt)
 - [xSHARE_Microbiology_Data_Elements.xlsx](ig-assets/Valuesets_and_Conceptmaps/xSHARE_Microbiology_Data_Elements.xlsx)
 - [xShare_Routine_labs.xlsx](ig-assets/Valuesets_and_Conceptmaps/xShare_Routine_labs.xlsx)
+- [FHIR bundle sample-IPS_with_research_study_info](ig-assets/Bundle-IPS_with_research_study_info.json)
 
 
 ### NPM Package and Definitions
