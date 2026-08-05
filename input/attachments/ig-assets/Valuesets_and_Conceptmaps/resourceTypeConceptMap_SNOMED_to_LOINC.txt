@@ -1,10 +1,10 @@
 {
   "resourceType": "ConceptMap",
-  "id": "8e8ac362-0d5f-4128-816c-645b5e235465",
-  "url": "http://snomed.info/sct/snomed-to-loinc",
+  "id": "xShare-snomed-to-loinc",
+  "url": "http://snomed.info/sct",
   "name": "Snomed to Loinc",
-  "version": "2024",
-  "status": "active",
+  "version": "2026",
+  "status": "draft",
   "sourceUri": "http://snomed.info/sct",
   "targetUri": "http://loinc.org",
   "group": [
@@ -24,50 +24,6 @@
           ]
         },
         {
-          "code": "175531010000100",
-          "display": "Catalytic concentration of alkaline phosphatase in serum or plasma at point in time (observable entity)",
-          "target": [
-            {
-              "code": "6768-6",
-              "display": "ALP SerPl-cCnc",
-              "equivalence": "equivalent"
-            }
-          ]
-        },
-        {
-          "code": "175531010000100",
-          "display": "Catalytic concentration of alkaline phosphatase in serum or plasma at point in time (observable entity)",
-          "target": [
-            {
-              "code": "6768-6",
-              "display": "ALP SerPl-cCnc",
-              "equivalence": "equivalent"
-            }
-          ]
-        },
-        {
-          "code": "105311010000109",
-          "display": "Catalytic concentration of alanine aminotransferase in serum or plasma at point in time (observable entity)",
-          "target": [
-            {
-              "code": "1742-6",
-              "display": "ALT SerPl-cCnc",
-              "equivalence": "equivalent"
-            }
-          ]
-        },
-        {
-          "code": "105311010000109",
-          "display": "Catalytic concentration of alanine aminotransferase in serum or plasma at point in time (observable entity)",
-          "target": [
-            {
-              "code": "1742-6",
-              "display": "ALT SerPl-cCnc",
-              "equivalence": "equivalent"
-            }
-          ]
-        },
-        {
           "code": "105311010000109",
           "display": "Catalytic concentration of alanine aminotransferase in serum or plasma at point in time (observable entity)",
           "target": [
@@ -88,26 +44,7 @@
               "equivalence": "equivalent"
             }
           ]
-        },
-        {
-          "code": "274161010000103",
-          "display": "Catalytic concentration of aspartate aminotransferase in serum or plasma at point in time (observable entity)",
-          "target": [
-            {
-              "code": "1920-8",
-              "display": "AST SerPl-cCnc",
-              "equivalence": "equivalent"
-            }
-          ]
-        },
-        {
-          "code": "274161010000103",
-          "display": "Catalytic concentration of aspartate aminotransferase in serum or plasma at point in time (observable entity)",
-          "target": [
-            {
-              "code": "1920-8",
-              "display": "AST SerPl-cCnc",
-              "equivalence": "equivalent"
-            }
-          ]
-        },
+        }
+      ]
+    }
+  ]
