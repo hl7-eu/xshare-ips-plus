@@ -22,6 +22,7 @@ Download the entire implementation guide [here](full-ig.zip).
 - [11_StructureDefinition-Immunization-uv-ips_to_SDTM_CM.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/11_StructureDefinition-Immunization-uv-ips_to_SDTM_CM.xlsx)
 - [xSHARE_Microbiology_Data_Elements.xlsx](ig-assets/Valuesets_and_Conceptmaps/xSHARE_Microbiology_Data_Elements.xlsx)
 - [xShare_Routine_labs.xlsx](ig-assets/Valuesets_and_Conceptmaps/xShare_Routine_labs.xlsx)
+- [FHIR bundle sample-IPS_with_research_study_info](ig-assets/Bundle-IPS_with_research_study_info.json)
 
 
 ### NPM Package and Definitions
