@@ -199,6 +199,7 @@ Relevant information for research and secondary use of data:
 - [CDISC SDTM and SDTMIG Conformance Rules v2.0](https://www.cdisc.org/standards/foundational/sdtmig/sdtm-and-sdtmig-conformance-rules-v2-0)
 - [Pinnacle21](https://www.pinnacle21.com/about) (Conformance Rule tool)
 - [NIH NCI EVS Thesaurus Browser](https://evsexplore.semantics.cancer.gov/evsexplore/welcome) (source for Data Element Concepts)
+- [Extracting Terminology from NCI EVS Explore described in 13.1.1 of Clinical Study Protocol Vulcan FHIR IG v1.0.0-ballot2](https://hl7.org/fhir/uv/clinical-study-protocol/2026May/en/terminology.html)
 - [CDISC eCRF Portal](https://www.cdisc.org/kb/ecrf) Examples Collection and Articles, includes RedCap link with CDASH forms
 - [CDISC Library](https://www.cdisc.org/cdisc-library) uses linked data and a REST API to deliver CDISC standards metadata to software applications that automate standards-based processes
 - [CDISC Data Exchange Standards](https://www.cdisc.org/standards/data-exchange)
