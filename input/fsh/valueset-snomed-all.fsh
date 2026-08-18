@@ -5,7 +5,8 @@ Description: "Value set including all codes from SNOMED CT."
 * insert SNOMEDCopyrightForVS
 * ^status = #active
 * ^experimental = false
-* include codes from system http://snomed.info/sct|http://snomed.info/sct/11010000107/version/20250531
+* include codes from system http://snomed.info/sct|http://snomed.info/sct/11010000107
+// * include codes from system http://snomed.info/sct
 
 
 ValueSet: CdiscAllVs

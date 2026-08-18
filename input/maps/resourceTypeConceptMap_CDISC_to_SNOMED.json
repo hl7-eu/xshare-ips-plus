@@ -13,7 +13,7 @@
   "group": [
     {
       "source": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-      "target": "http://snomed.info/sct|http://snomed.info/sct/11010000107/version/20250531",
+      "target": "http://snomed.info/sct",
       "element": [
         {
           "code": "C64432",
