@@ -3,7 +3,7 @@
 
 // --- Code Systems
 
-Alias: $cdisc = https://www.cdisc.org/standards/terminology/controlled-terminology 
+Alias: $cdisc = http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl 
 Alias: $ajcc = http://cancerstaging.org
 Alias: $atc = http://www.whocc.no/atc
 Alias: $dicomOntology = http://dicom.nema.org/resources/ontology/DCM

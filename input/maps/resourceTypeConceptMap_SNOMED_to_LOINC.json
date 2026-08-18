@@ -1,24 +1,27 @@
 {
   "resourceType": "ConceptMap",
-  "id": "example-snomed-to-cdisc-mapping",
-  "url": "http://snomed.info/sct",
-  "name": "Snomed to Cdisc",
+  "id": "example-snomed-to-loinc-mapping",
+  "url": "http://hl7.eu/fhir/ig/xshare-ips-plus/ConceptMap/example-snomed-to-loinc-mapping",
+  "name": "SnomedToLoinc",
+  "title": "Snomed to Loinc",
   "version": "2026",
   "status": "draft",
-  "sourceUri": "http://snomed.info/sct",
-  "targetUri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+  "experimental": true,
+  "description": "Example ConceptMap mapping SNOMED CT observable entity concepts to LOINC codes.",
+  "sourceUri": "http://hl7.eu/fhir/ig/xshare-ips-plus/ValueSet/snomed-all",
+  "targetUri": "http://loinc.org/vs",
   "group": [
     {
       "source": "http://snomed.info/sct",
-      "target": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "target": "http://loinc.org",
       "element": [
         {
           "code": "175531010000100",
           "display": "Catalytic concentration of alkaline phosphatase in serum or plasma at point in time (observable entity)",
           "target": [
             {
-              "code": "C64432",
-              "display": "Alkaline Phosphatase",
+              "code": "6768-6",
+              "display": "ALP SerPl-cCnc",
               "equivalence": "equivalent"
             }
           ]
@@ -28,8 +31,8 @@
           "display": "Catalytic concentration of alanine aminotransferase in serum or plasma at point in time (observable entity)",
           "target": [
             {
-              "code": "C64433",
-              "display": "Alanine Aminotransferase",
+              "code": "1742-6",
+              "display": "ALT SerPl-cCnc",
               "equivalence": "equivalent"
             }
           ]
@@ -39,11 +42,13 @@
           "display": "Catalytic concentration of aspartate aminotransferase in serum or plasma at point in time (observable entity)",
           "target": [
             {
-              "code": "C64467",
-              "display": "Aspartate Aminotransferase",
+              "code": "1920-8",
+              "display": "AST SerPl-cCnc",
               "equivalence": "equivalent"
             }
           ]
         }
       ]
- }
+    }
+  ]
+}

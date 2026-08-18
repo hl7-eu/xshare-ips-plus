@@ -1,12 +1,15 @@
 {
   "resourceType": "ConceptMap",
   "id": "example-snomed-to-cdisc-mapping",
-  "url": "http://snomed.info/sct",
-  "name": "Snomed to Cdisc",
+  "url": "http://hl7.eu/fhir/ig/xshare-ips-plus/ConceptMap/example-snomed-to-cdisc-mapping",
+  "name": "SnomedToCdiscMap",
+  "title": "Snomed to Cdisc",
   "version": "2026",
   "status": "draft",
-  "sourceUri": "http://snomed.info/sct",
-  "targetUri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+  "experimental": true,
+  "description": "Example ConceptMap mapping SNOMED CT observable entity concepts to CDISC codes.",
+  "sourceUri": "http://hl7.eu/fhir/ig/xshare-ips-plus/ValueSet/snomed-all",
+  "targetUri": "http://hl7.eu/fhir/ig/xshare-ips-plus/ValueSet/cdisc-all",
   "group": [
     {
       "source": "http://snomed.info/sct",
@@ -46,4 +49,6 @@
           ]
         }
       ]
- }
+    }
+  ]
+}

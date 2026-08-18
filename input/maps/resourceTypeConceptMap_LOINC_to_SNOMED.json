@@ -1,0 +1,54 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "example-loinc-to-snomed-mapping",
+  "url": "http://hl7.eu/fhir/ig/xshare-ips-plus/ConceptMap/example-loinc-to-snomed-mapping",
+  "name": "LoincToSnomed",
+  "title": "Loinc to Snomed",
+  "version": "2026",
+  "status": "draft",
+  "experimental": true,
+  "description": "Example ConceptMap mapping LOINC codes to SNOMED CT observable entity concepts.",
+  "sourceUri": "http://loinc.org/vs",
+  "targetUri": "http://hl7.eu/fhir/ig/xshare-ips-plus/ValueSet/snomed-all",
+  "group": [
+    {
+      "source": "http://loinc.org",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "6768-6",
+          "display": "ALP SerPl-cCnc",
+          "target": [
+            {
+              "code": "175531010000100",
+              "display": "Catalytic concentration of alkaline phosphatase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "1742-6",
+          "display": "ALT SerPl-cCnc",
+          "target": [
+            {
+              "code": "105311010000109",
+              "display": "Catalytic concentration of alanine aminotransferase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "1920-8",
+          "display": "AST SerPl-cCnc",
+          "target": [
+            {
+              "code": "274161010000103",
+              "display": "Catalytic concentration of aspartate aminotransferase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

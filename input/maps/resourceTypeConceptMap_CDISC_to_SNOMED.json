@@ -1,0 +1,54 @@
+{
+  "resourceType": "ConceptMap",
+    "id": "example-cdisc-to-snomed-mapping",
+    "url": "http://hl7.eu/fhir/ig/xshare-ips-plus/ConceptMap/example-cdisc-to-snomed-mapping",
+    "name": "CdiscToSnomed",
+    "title": "Cdisc to Snomed",
+    "version": "2026",
+    "status": "draft",
+    "experimental": true,
+    "description": "Example ConceptMap mapping CDISC codes to SNOMED CT observable entity concepts.",
+  "sourceUri": "http://hl7.eu/fhir/ig/xshare-ips-plus/ValueSet/cdisc-all",
+  "targetUri": "http://hl7.eu/fhir/ig/xshare-ips-plus/ValueSet/snomed-all",
+  "group": [
+    {
+      "source": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "target": "http://snomed.info/sct|http://snomed.info/sct/11010000107/version/20250531",
+      "element": [
+        {
+          "code": "C64432",
+          "display": "Alkaline Phosphatase",
+          "target": [
+            {
+              "code": "175531010000100",
+              "display": "Catalytic concentration of alkaline phosphatase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C64433",
+          "display": "ALT SerPl-cCnc",
+          "target": [
+            {
+              "code": "105311010000109",
+              "display": "Catalytic concentration of alanine aminotransferase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "C64467",
+          "display": "Aspartate Aminotransferase",
+          "target": [
+            {
+              "code": "274161010000103",
+              "display": "Catalytic concentration of aspartate aminotransferase in serum or plasma at point in time (observable entity)",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
