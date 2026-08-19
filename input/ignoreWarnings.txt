@@ -8,3 +8,26 @@ The link 'StructureDefinition-PersonName.sch' for "Schematron" cannot be resolve
 The link 'StructureDefinition-conformance-cen-ips-examples.html' for "Examples" cannot be resolved
 The link 'StructureDefinition-conformance-cen-ips-examples.html' for "Examples" cannot be resolved
 
+# QA report messages
+# Note: the publisher matches these against the bare validator message text only -
+# the "Resource/Path: " location prefix shown in qa.txt is NOT part of the match text
+# and must be omitted here, or the rule silently matches 0 messages.
+
+The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+The resource ImplementationGuide/hl7.eu.fhir.xshare-ips-plus could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+The value set references CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' which has status 'fragment'
+The resource ValueSet/cdisc-all should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+The value set expansion is too large, and only a subset has been displayed
+The resource ValueSet/snomed-all should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11010000107' could not be found, so the value set cannot be expanded.%
+Source Code System http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl doesn't have all content (content = fragment), so the source codes cannot be checked
+Target Code System http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl doesn't have all content (content = fragment), so the target codes cannot be checked
+The code '175531010000100' comes from the system http://snomed.info/sct version http://snomed.info/sct/11010000107 which could not be found, so it's not known whether it's valid in the value set 'null'
+The code '105311010000109' comes from the system http://snomed.info/sct version http://snomed.info/sct/11010000107 which could not be found, so it's not known whether it's valid in the value set 'null'
+The code '274161010000103' comes from the system http://snomed.info/sct version http://snomed.info/sct/11010000107 which could not be found, so it's not known whether it's valid in the value set 'null'
+No definition could be found for URL value 'http://loinc.org/vs'
+The resource ConceptMap/example-cdisc-to-snomed-mapping could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+The resource ConceptMap/example-loinc-to-snomed-mapping could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+The resource ConceptMap/example-snomed-to-cdisc-mapping could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+The resource ConceptMap/example-snomed-to-loinc-mapping could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+
