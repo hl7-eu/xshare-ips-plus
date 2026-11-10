@@ -1,6 +1,6 @@
 id: hl7.eu.fhir.xshare-ips-plus
 canonical: http://hl7.eu/fhir/ig/xshare-ips-plus # check if this may create issues
-name:  Xshareips-plusIg
+name: XshareIpsPlusIg
 title: xShare Project IPS+
 description: The xShare IPS+ HL7 FHIR IG provides guidelines on how to use the IPS for reasearch purposes.
 status: draft # draft | active | retired | unknown
