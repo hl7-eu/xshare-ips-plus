@@ -46,9 +46,9 @@ The list of specific IPS+ data elements that are specific for the business use c
 
 ### IPS+ adoption within use cases
 
-This section outlines how the IPS+ specification could be incorporated within the use cases presented in the application section. The work flow of each use case is described, including the role of the IPS+. It is assumed that the IPS+ data is either held in regional or national repositories, or is retrieved on a patient specific basis by the patient using the xShare yellow button. In practice other IPS+ data flows might be implemented.
+This section outlines how the IPS+ specification could be incorporated within the use cases presented in the application section. The work flow of each use case is described, including the role of the IPS+. It is assumed that the IPS+ data is either held in regional or national repositories, or is retrieved on a patient specific basis by the patient using the xShare yellow button. Consider that in view of using IPS+ data in research use cases, the provenance description of the data is required. For example, the indication of whether data originates from a clinician capturing the data in the Electronic Health Record or has been provided by the patient directly through a Personal Health Record, will be required in the research use cases. Although not covered in this implementation guide, a potential curation of a person’s health data coming from multiple sources might need to be considered. In practice other IPS+ data flows for additional use cases as described in the x-bundle for IPS+ might be implemented.
 
-The use cases described in the following paragraphs rely on the base setup as described in this simplified figure.
+The use cases described in the following paragraphs rely on the base setup as described in the following simplified figure.
 
 <div>
 <p> </p>
@@ -150,13 +150,35 @@ If, for example, an examination or visit unrelated to the study occurs while a p
 If a patient changes their mind and no longer wishes their IPS+ data to be used in the study, they can cease forwarding downloads or cancel their authorisation.  
 (Because clinical trial data needs to be retained long-term as evidence of the trial centre and sponsor duty of care, historically transferred data will not normally be deleted.)
 
+#### Infection case classification for public health
+
+To support public health use cases, the Outbreak category of the IPS+ includes data elements derived from the EU case definitions for communicable disease surveillance (Commission Implementing Decision (EU) 2018/945):
+<ul>
+	<li><b>Exposure</b>: the exposure relevant to an infection (e.g. human, environmental…). It captures the epidemiological link as defined in the EU case definitions.</li>
+	<li><b>Transmission route</b>: the route by which the infection was acquired (e.g. foodborne, vector-borne…).</li>
+	<li><b>Case classification</b>: the classification of a case against a case definition (possible, probable or confirmed).</li>
+</ul>
+
+The infection case classification workflow, from data capture to surveillance reporting, proceeds as follows:
+ 
+<ol>
+	<li>A laboratory result or clinical diagnosis indicating a notifiable infection is recorded in the EHR or LIS.</li>
+	<li>The IPS+ is generated or updated, including the infection Condition, laboratory and microbiology results, and the outbreak health elements (exposure, transmission route).</li>
+	<li>The criteria of the EU and national case definitions are available in computable form, bound to IPS+ data elements and terminologies.</li>
+	<li>The IPS+ data is evaluated against the case definition and a classification (possible / probable / confirmed) is proposed.</li>
+	<li>The case classification is recorded as an Observation linked to the infection Condition.</li>
+	<li>The clinician or public health officer reviews and confirms the classification.</li>
+	<li>The case is notified to the national public health authority and aggregated for EU-level surveillance.</li>
+	<li>When a case definition is updated, existing cases can be re-evaluated.</li>
+</ol>
+
 ### GDPR compliance and information security
 
 The xShare Yellow Button utilises an enhanced data subject right under the GDPR, by enabling a patient to access a complete copy of their European EHRxF data in a computable, standardised form, utilising the same standards that are used to exchange this information between healthcare systems. The IPS+ is proposed as the representation of this content.
 
 The EHDS Regulation permits an individual to forward their exchange format information to any other parties, for example to obtain a second clinical opinion or to participate in research.  
 The trial centre should publish its data protection policy and notices, so that the patient is well aware of the GDPR-compliant terms and safeguards that will be applied to any data they provide to the trial centre they have chosen.  
-The act of forwarding the information effectively provides their informed consent for the recipient to legally hold their personal European EHRxF data according to those published terms and safeguards.
+The act of forwarding the information effectively provides their informed consent for the recipient to legally hold their personal European EHRxF data according to those published terms and safeguards, although it does not provide consent to participate in a clinical trial or for the investigator to use the data for any other purpose than to confirm possible trial eligibility.
 
 If the patient passes prescreening, screening, and then becomes enrolled in the clinical study, the trial centre and sponsor will then need to retain their copies of the patient’s health information on a long-term basis, as their record of having performed a duty of care to the patient.  
 This is usually the GDPR legal basis of *legitimate interest* in industry clinical studies.  
@@ -189,6 +211,8 @@ Relevant information for research and secondary use of data:
 - [HL7 Vulcan Adverse Event Clinical Research R4 Backport v1.0.1](https://hl7.org/fhir/uv/ae-research-backport-ig/)
 - [HL7 Vulcan Retrieval of Real World Data for Clinical Research v1.0.0](https://hl7.org/fhir/uv/vulcan-rwd/)
 - [HL7 Vulcan Clinical Study Schedule of Activities v1.0.0](https://hl7.org/fhir/uv/vulcan-schedule/)
+- [H7 Vulcan Pharmaceutical Clinical Trial Protocols v1.0.0](https://hl7.org/fhir/uv/clinical-study-protocol/2026May/en/)
+- [HL7 FHIR R4 Symptoms Implementation Guide v1.0.0](https://hl7.org/fhir/uv/symptoms/en/usecases.html) and [Respiratory Virus Hospitalization Surveillance Network (RESP-NET) Content Implementation Guide v1.0.0](https://hl7.org/fhir/us/resp-net/usecases.html)
 - [FHIR to CDISC Joint Mapping Implementation Guide v1.0.0](http://hl7.org/fhir/uv/cdisc-mapping/STU1/)
 - [CDISC/TransCelerate Digital Data Flow and The Unified Study Definitions Model](https://www.cdisc.org/ddf)
 - [CDISC Study Data Tabulation Model v2.0 & Study Data Tabulation Model Implementation Guide (SDTMIG) v3.4](https://www.cdisc.org/standards/foundational/sdtmig)
@@ -203,6 +227,7 @@ Relevant information for research and secondary use of data:
 - [CDISC eCRF Portal](https://www.cdisc.org/kb/ecrf) Examples Collection and Articles, includes RedCap link with CDASH forms
 - [CDISC Library](https://www.cdisc.org/cdisc-library) uses linked data and a REST API to deliver CDISC standards metadata to software applications that automate standards-based processes
 - [CDISC Data Exchange Standards](https://www.cdisc.org/standards/data-exchange)
+- [CDISC Biomedical Concept Initiative](https://www.cdisc.org/cdisc-biomedical-concepts) supports connecting all standards and terminologies in a machine readable way
 - [IHE International Quality, Research and Public Health](https://www.ihe.net/ihe_domains/quality_research_and_public_health/) includes integration profiles:
   - Retrieve Form for data capture (RFD)
   - Retrieve protocol for execution (RPE)
