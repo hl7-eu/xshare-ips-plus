@@ -30,6 +30,7 @@ Multi-stakeholder endorsement of the xShare IPS+ specifications as correct, rele
 <p> </p>
 </div>
 
+Although not explicitly worked out in this implementation guide, the architecture as described in figure 9 is able to support the use case of site feasibility as demonstrated through the xShare Open Calls.
 
 ---
 
@@ -52,7 +53,6 @@ A citizen wants to know if they are possibly eligible for a clinical trial.
 <p> </p>
 </div>
 
-
 ---
 
 ### Use Case 3: Study support – PHR/EHRs to Study Database System or Electronic Data Capture (EDC)
@@ -72,3 +72,28 @@ The patient or clinical trial investigator wants to send Study X data.
 <p> </p>
 </div>
 
+In view of increasing transparency in their research data, the xShare Yellow Button functionality can also be used by the trial participant to download their data from a registry or other research study in IPS+ format under GDPR Article 15, as demonstrated in the Open Call. However, certain restrictions may apply during an ongoing clinical trial, particularly where disclosure could compromise for example blinding or the rights of others.
+
+---
+
+### Use Case 4: Public health – Infection case classification against case definitions
+
+Public health authorities need to classify infectious disease cases consistently and on time, using the EU case definitions for communicable disease surveillance ( Commission Implementing Decision (EU) 2018/945) and the national case definitions used for surveillance in each Member State. Each case definition combines clinical criteria, laboratory criteria and epidemiological criteria, and assigns a case to a classification level, for example possible, probable or confirmed at EU level.
+
+In this use case the criteria of a case definition are expressed in computable form and bound to the European EHRxF data elements carried in IPS+:
+<ul>
+  <li><b>Clinical criteria</b> map to problems and clinical findings (signs and symptoms) coded in SNOMED CT and part of Condition resources in HL7 FHIR and Medical History in CDISC SDTM.</li>
+  <li><b>Laboratory criteria</b> map to laboratory and microbiology results as specified in the HL7 Europe Laboratory Report: pathogen identification, detection method, specimen type and, where the case definition requires it, antimicrobial susceptibility. These are coded with the terminologies specified there (e.g. LOINC or NPU, and SNOMED CT). See also CDISC Infectious Disease Therapeutic Area User Guides (eg Ebola, COVID,..) for examples on microbiology specimen data modeling.</li>
+  <li><b>Epidemiological criteria</b> map to two IPS+ data elements in the Outbreak category. The first is <i>exposure</i> (e.g. human-to-human transmission, exposure to a common source, environmental exposure), which captures the epidemiological link as defined in the EU case definitions. The second is <i>transmission route</i> (e.g. airborne, vector-borne, ingestion of contaminated food or water). Both are carried as HL7 FHIR Observations in the Outbreak IPS+ category and linked to the infection Condition.</li>
+</ul>
+
+IPS+ data from EHRs, laboratory information systems or PHRs is evaluated against these rules to propose a classification for each case. The case classification (e.g. possible, probable, confirmed) is recorded as a separate Observation that references the infection Condition. The resulting classification supports notification to national public health authorities and comparable reporting at EU level, and can be recalculated when a case definition is updated.
+
+**The Trigger:** 
+A laboratory result or clinical diagnosis indicating a notifiable infection is recorded, or a public health authority issues or updates a case definition, for example in response to an outbreak.
+
+<div>
+<p> </p>
+  <img alt="Public health - Infection use case classification against case definitions" src="Public-health-infection-case.jpg" style="width: 60%;" />
+<p> </p>
+</div>
