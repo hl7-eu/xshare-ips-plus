@@ -30,7 +30,7 @@ The content available for download includes:
   - [Diagnostic Report](ig-assets/IPS_FHIR_to_CDISC_SDTM/07_StructureDefinition-DiagnosticReport-uv-ips_to_SDTM_2026-11-11.xlsx),
   - [Allergy and Intollerance](ig-assets/IPS_FHIR_to_CDISC_SDTM/08_StructureDefinition-AllergyIntolerance-uv-ips_to_SDTM_MH_2026-11-11.xlsx),
   - [Immunization](ig-assets/IPS_FHIR_to_CDISC_SDTM/09_StructureDefinition-Immunization-uv-ips_to_SDTM_CM_2026-11-11.xlsx),
-  - the base R4 FHIR [resource Encounter](ig-assets/IPS_FHIR_to_CDISC_SDTM/08_FHIR-Encounter_to_SDTM_HO_2026-11-11.xlsx);
+  - the base R4 FHIR [resource Encounter](ig-assets/IPS_FHIR_to_CDISC_SDTM/06_FHIR-Encounter_to_SDTM_HO_2026-11-11.xlsx);
 - and xShare [routine laboratory data items](ig-assets/Valuesets_and_Conceptmaps/xShare_Routine_labs_2026-10-07.xlsx),
 - [microbiology data items](ig-assets/Valuesets_and_Conceptmaps/xSHARE_Microbiology_Data_Elements_2026-10_07.xlsx) (with SNOMED codes and CDISC C-codes),
 - a subset of the CDISC LOINC-to-LB (laboratory) mapping,

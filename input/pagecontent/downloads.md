@@ -15,7 +15,7 @@ Download the entire implementation guide [here](full-ig.zip).
 - [03.2_StructureDefinition-MedicationStatement-uv-ips_to_SDTM_CM.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/03.2_StructureDefinition-MedicationStatement-uv-ips_to_SDTM_CM_2026-11-11.xlsx)
 - [04.0_StructureDefinition-Observation-results-laboratory-uv-ips_to_SDTM_LB_generic_domain.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/04.0_StructureDefinition-Observation-results-laboratory-uv-ips_to_SDTM_LB_generic_domain.xlsx)
 - [04.1_StructureDefinition-Observation-results-uv-ips_to_SDTM_Findings_generic_domain.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/04.1_StructureDefinition-Observation-results-uv-ips_to_SDTM_Findings_generic_domain_2026-11-11.xlsx)
-- [05_StructuredDefinition-Procedure-uv-ips_to_SDTM_PR.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/07_StructuredDefinition-Procedure-uv-ips_to_SDTM_PR_2026-11-11.xlsx)
+- [05_StructuredDefinition-Procedure-uv-ips_to_SDTM_PR.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/05_StructuredDefinition-Procedure-uv-ips_to_SDTM_PR_2026-11-11.xlsx)
 - [06_FHIR-Encounter_to_SDTM_HO.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/06_FHIR-Encounter_to_SDTM_HO_2026-11-11.xlsx)
 - [07_StructureDefinition-DiagnosticReport-uv-ips_to_SDTM.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/07_StructureDefinition-DiagnosticReport-uv-ips_to_SDTM_2026-11-11.xlsx)
 - [08_StructureDefinition-AllergyIntolerance-uv-ips_to_SDTM_MH.xlsx](ig-assets/IPS_FHIR_to_CDISC_SDTM/08_StructureDefinition-AllergyIntolerance-uv-ips_to_SDTM_MH_2026-11-11.xlsx)
@@ -29,18 +29,18 @@ Download the entire implementation guide [here](full-ig.zip).
 
 The following file contains all the value sets, profiles, extensions, list of pages and urls in the IG, etc. defined as part of this Implementation Guide:
 
-- [NPM Package](package.tgz)
+- [NPM Package](../package.tgz)
 
 
 There are also specific packages for the R4 and R4B FHIR specifications:
 
 #### R4-specific NPM Package and Definitions
 
-- [R4 NPM Package](package.r4.tgz)
+- [R4 NPM Package](../package.r4.tgz)
 
 #### R4B-specific NPM Package and Definitions
 
-- [R4B NPM Package](package.r4b.tgz)
+- [R4B NPM Package](../package.r4b.tgz)
 
 
 ### Dependencies
