@@ -18,21 +18,21 @@ The overarching scope of the xShare IPS+ FHIR Implementation Guide is to provide
 The role of the core harmonized terminology, valuesets and codelist alignment, and the model-to-model mapping included in this scope –FHIR to CDISC mapping of IPS profiles, data element item to item map.
 
 The content available for download includes:
-- the [xShare Core Harmonised Data Elements](ig-assets/xSHARE_Data_Elements_w_C-Codes_and_SNOMED_Codes.xlsx),
+- the [xShare Core Harmonised Data Elements](ig-assets/xSHARE_Data_Elements_2026-11-11.xlsx),
 - the IPS FHIR to CDISC SDTM Mapping Specifications for the HL7 IPS v1.1.0 to CDISC SDTMIG v3.4 for the following profiles:
-  - [Patient](ig-assets/IPS_FHIR_to_CDISC_SDTM/01_StructureDefinition-Patient-uv-ips_to_SDTM.xlsx),
-  - [Condition](ig-assets/IPS_FHIR_to_CDISC_SDTM/02_StructureDefinition-Condition-uv-ips_Problem_HxProblem_to_SDTM_MH.xlsx),
-  - [Medication](ig-assets/IPS_FHIR_to_CDISC_SDTM/03_StructureDefinition-Medication-uv-ips_to_SDTM_CM.xlsx),
-  - [Medication Request](ig-assets/IPS_FHIR_to_CDISC_SDTM/04_StructureDefinition-MedicationRequest-uv-ips_to_SDTM.xlsx),
-  - [Medication Statement](ig-assets/IPS_FHIR_to_CDISC_SDTM/05_StructureDefinition-MedicationStatement-uv-ips_to_SDTM_CM.xlsx),
-  - [Observation Results Laboratory](ig-assets/IPS_FHIR_to_CDISC_SDTM/06.0_StructureDefinition-Observation-results-laboratory-uv-ips_to_SDTM_LB_generic_domain.xlsx) (includes [Observation Results](ig-assets/IPS_FHIR_to_CDISC_SDTM/06.1_StructureDefinition-Observation-results-uv-ips_to_SDTM_Findings_generic_domain.xlsx)),
-  - [Procedures](ig-assets/IPS_FHIR_to_CDISC_SDTM/07_StructuredDefinition-Procedure-uv-ips_to_SDTM_PR.xlsx),
-  - [Diagnostic Report](ig-assets/IPS_FHIR_to_CDISC_SDTM/09_StructureDefinition-DiagnosticReport-uv-ips_to_SDTM.xlsx),
-  - [Allergy and Intollerance](ig-assets/IPS_FHIR_to_CDISC_SDTM/10_StructureDefinition-AllergyIntolerance-uv-ips_to_SDTM_MH.xlsx),
-  - [Immunization](ig-assets/IPS_FHIR_to_CDISC_SDTM/11_StructureDefinition-Immunization-uv-ips_to_SDTM_CM.xlsx),
-  - the base R4 FHIR [resource Encounter](ig-assets/IPS_FHIR_to_CDISC_SDTM/08_FHIR-Encounter_to_SDTM_HO.xlsx);
-- and xShare [routine laboratory data items](ig-assets/Valuesets_and_Conceptmaps/xShare_Routine_labs.xlsx),
-- [microbiology data items](ig-assets/Valuesets_and_Conceptmaps/xSHARE_Microbiology_Data_Elements.xlsx) (with SNOMED codes and CDISC C-codes),
+  - [Patient](ig-assets/IPS_FHIR_to_CDISC_SDTM/01_StructureDefinition-Patient-uv-ips_to_SDTM_DM_2026-11-11.xlsx),
+  - [Condition](ig-assets/IPS_FHIR_to_CDISC_SDTM/02_StructureDefinition-Condition-uv-ips_Problem_HxProblem_to_SDTM_MH_2026-11-11.xlsx),
+  - [Medication](ig-assets/IPS_FHIR_to_CDISC_SDTM/03.0_StructureDefinition-Medication-uv-ips_to_SDTM_CM_2026-11-11.xlsx),
+  - [Medication Request](ig-assets/IPS_FHIR_to_CDISC_SDTM/03.1_StructureDefinition-MedicationRequest-uv-ips_to_SDTM_CM_2026-11-11.xlsx),
+  - [Medication Statement](ig-assets/IPS_FHIR_to_CDISC_SDTM/03.2_StructureDefinition-MedicationStatement-uv-ips_to_SDTM_CM_2026-11-11.xlsx),
+  - [Observation Results Laboratory](ig-assets/IPS_FHIR_to_CDISC_SDTM/04.0_StructureDefinition-Observation-results-laboratory-uv-ips_to_SDTM_LB_generic_domain.xlsx) (includes [Observation Results](ig-assets/IPS_FHIR_to_CDISC_SDTM/04.1_StructureDefinition-Observation-results-uv-ips_to_SDTM_Findings_generic_domain_2026-11-11.xlsx)),
+  - [Procedures](ig-assets/IPS_FHIR_to_CDISC_SDTM/05_StructuredDefinition-Procedure-uv-ips_to_SDTM_PR_2026-11-11.xlsx),
+  - [Diagnostic Report](ig-assets/IPS_FHIR_to_CDISC_SDTM/07_StructureDefinition-DiagnosticReport-uv-ips_to_SDTM_2026-11-11.xlsx),
+  - [Allergy and Intollerance](ig-assets/IPS_FHIR_to_CDISC_SDTM/08_StructureDefinition-AllergyIntolerance-uv-ips_to_SDTM_MH_2026-11-11.xlsx),
+  - [Immunization](ig-assets/IPS_FHIR_to_CDISC_SDTM/09_StructureDefinition-Immunization-uv-ips_to_SDTM_CM_2026-11-11.xlsx),
+  - the base R4 FHIR [resource Encounter](ig-assets/IPS_FHIR_to_CDISC_SDTM/08_FHIR-Encounter_to_SDTM_HO_2026-11-11.xlsx);
+- and xShare [routine laboratory data items](ig-assets/Valuesets_and_Conceptmaps/xShare_Routine_labs_2026-10-07.xlsx),
+- [microbiology data items](ig-assets/Valuesets_and_Conceptmaps/xSHARE_Microbiology_Data_Elements_2026-10_07.xlsx) (with SNOMED codes and CDISC C-codes),
 - a subset of the CDISC LOINC-to-LB (laboratory) mapping,
 - an analysis of the IPS FHIR valuesets to CDISC terminology codelists.
 
@@ -228,6 +228,7 @@ Relevant information for research and secondary use of data:
 - [CDISC Library](https://www.cdisc.org/cdisc-library) uses linked data and a REST API to deliver CDISC standards metadata to software applications that automate standards-based processes
 - [CDISC Data Exchange Standards](https://www.cdisc.org/standards/data-exchange)
 - [CDISC Biomedical Concept Initiative](https://www.cdisc.org/cdisc-biomedical-concepts) supports connecting all standards and terminologies in a machine readable way
+- [IHE International Sharing of IPS](https://profiles.ihe.net/ITI/sIPS/index.html)
 - [IHE International Quality, Research and Public Health](https://www.ihe.net/ihe_domains/quality_research_and_public_health/) includes integration profiles:
   - Retrieve Form for data capture (RFD)
   - Retrieve protocol for execution (RPE)
