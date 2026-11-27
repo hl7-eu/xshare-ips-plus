@@ -1,9 +1,9 @@
 {
   "package-id" : "hl7.eu.fhir.xshare-ips-plus",
-  "version" : "0.2.0",
-  "path" : "http://hl7.eu/fhir/ig/xshare-ips-plus/0.2.0",
-  "status" : "preview",
+  "version" : "1.0.0",
+  "path" : "http://hl7.eu/fhir/ig/xshare-ips-plus/1.0.0",
+  "status" : "release",
   "sequence" : "Release 1",
-  "desc" : "Second preview release: improved the copyrights page; added FHIR ConceptMaps",
+  "desc" : "First release",
   "mode": "milestone"
 }

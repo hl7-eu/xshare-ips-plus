@@ -3,11 +3,11 @@ canonical: http://hl7.eu/fhir/ig/xshare-ips-plus # check if this may create issu
 name: XshareIpsPlusIg
 title: xShare Project IPS+
 description: The xShare IPS+ HL7 FHIR IG provides guidelines on how to use the IPS for reasearch purposes.
-status: draft # draft | active | retired | unknown
-version: 0.2.0
+status: active # draft | active | retired | unknown
+version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
-releaseLabel: qa-preview # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: release # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: 	http://unstats.un.org/unsd/methods/m49/m49.htm#150 "Europe" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
