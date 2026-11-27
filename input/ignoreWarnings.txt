@@ -14,11 +14,8 @@ The link 'StructureDefinition-conformance-cen-ips-examples.html' for "Examples" 
 # and must be omitted here, or the rule silently matches 0 messages.
 
 The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-The resource ImplementationGuide/hl7.eu.fhir.xshare-ips-plus could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 The value set references CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' which has status 'fragment'
-The resource ValueSet/cdisc-all should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 The value set expansion is too large, and only a subset has been displayed
-The resource ValueSet/snomed-all should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11010000107' could not be found, so the value set cannot be expanded.%
 Source Code System http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl doesn't have all content (content = fragment), so the source codes cannot be checked
 Target Code System http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl doesn't have all content (content = fragment), so the target codes cannot be checked
@@ -26,8 +23,13 @@ The code '175531010000100' comes from the system http://snomed.info/sct version 
 The code '105311010000109' comes from the system http://snomed.info/sct version http://snomed.info/sct/11010000107 which could not be found, so it's not known whether it's valid in the value set 'null'
 The code '274161010000103' comes from the system http://snomed.info/sct version http://snomed.info/sct/11010000107 which could not be found, so it's not known whether it's valid in the value set 'null'
 No definition could be found for URL value 'http://loinc.org/vs'
-The resource ConceptMap/example-cdisc-to-snomed-mapping could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-The resource ConceptMap/example-loinc-to-snomed-mapping could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-The resource ConceptMap/example-snomed-to-cdisc-mapping could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-The resource ConceptMap/example-snomed-to-loinc-mapping could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 
+
+# path-image-source is not yet in ig-parameters 1.3.0 - fixed in the next version of the tools extension IG.
+# See https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/IG.20publisher.203.2E0.2E7.3A.20new.20build.20error
+The System URI could not be determined for the code 'path-image-source' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.3.0'
+The value provided ('path-image-source') was not found in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.3.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'path-image-source' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.3.0'; The provided code '#path-image-source' was not found in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.3.0')
+
+# OIDs are not assigned to the resources of this IG (yet)
+%should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+%could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
